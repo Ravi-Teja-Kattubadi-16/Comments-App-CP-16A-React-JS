@@ -1,0 +1,133 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 90vw;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+@media (min-width: 768px) {
+  .list-item {
+    list-style-type: none;
+    width: 77vw;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.first-letter-logo {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  color: #ffffff;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.comment-name {
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.commented-time {
+  color: #94a3b8;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.time-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.para {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: #64748b;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.like-image {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+.like {
+  color: #94a3b8;
+  font-size: 16px;
+  font-weight: 600;
+}
+.liked-sky-blue {
+  color: #0ea5e9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.delete-image {
+  height: 25px;
+  width: 25px;
+}
+.horizontal-line2 {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  color: black;
+  margin-top: 0px;
+}
+.delete-button {
+  background-color: transparent;
+  border: 0px solid transparent;
+  cursor: pointer;
+  outline: none;
+}
